@@ -1,0 +1,75 @@
+/* Fabric Home Page CSS */
+
+/* Container for the fabric home page */
+.fabric-home-page {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title for the fabric selection page */
+.fabric-home-page h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Container for fabric cards */
+.fabric-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Style for individual fabric cards */
+.fabric-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.fabric-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Fabric image */
+.fabric-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Fabric info */
+.fabric-info {
+    padding: 10px;
+}
+
+.fabric-info h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.fabric-info p {
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* Link to view product */
+.fabric-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.fabric-link:hover {
+    background-color: #0056b3;
+}

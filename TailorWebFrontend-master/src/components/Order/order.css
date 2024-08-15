@@ -1,0 +1,57 @@
+/* Styles for the container */
+.container1 {
+    max-width: 600px; /* Limit the width to a reasonable size */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Card Element styles */
+.CardElement {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: #007bff; /* Blue button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:disabled {
+    background-color: #ccc; /* Gray color when button is disabled */
+    cursor: not-allowed;
+}
+
+/* Error message styles */
+.error {
+    color: red;
+    margin-bottom: 20px;
+}

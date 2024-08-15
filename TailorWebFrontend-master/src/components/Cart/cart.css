@@ -1,0 +1,122 @@
+/* Cart page container */
+.cart-container {
+    width: 100%;
+    max-width: 1000px;
+    min-height: calc(100vh - 180px);
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Heading styles */
+.cart-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Cart item styles */
+.cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+/* Image section */
+.cart-item img {
+    width: 20%;
+    border-radius: 5px;
+}
+
+/* Center section with product name and options */
+.cart-item-info {
+    width: 60%;
+    padding: 0 20px;
+}
+
+.cart-item-info h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/* .cart-item-info h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+} */
+
+.cart-item-info .quantity-buttons,
+.cart-item-info button {
+    margin-top: 5px;
+}
+
+/* Quantity buttons container */
+.quantity-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.quantity-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.cart-item-info button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-item-info button:hover {
+    background-color: darkred;
+}
+
+/* Price section */
+.cart-item-price {
+    width: 20%;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Cart total section */
+.cart-total {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* Place order button */
+.place-order-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.place-order-button:hover {
+    background-color: #45a049;
+}
